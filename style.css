@@ -413,12 +413,14 @@ main .container .right {
     position: sticky;
     top: var(--sticky-top-right);
     bottom: 0;
+    flex-direction: column;
 }
 
 .right .messages {
     background: var(--color-white);
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
+    width: 100%;
 }
 
 .right ,.messages .heading {
